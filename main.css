@@ -1,0 +1,98 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+body {
+        line-height: 1;
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+/* ==== CSS ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;}
+body {
+	height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(assets/h%C3%A1tt%C3%A9r.jpg);
+	background-size: cover;}
+.profile-card {
+    background-color: hsla(0, 100%, 50%, 0,0);
+    width: 480px;
+    height: 300px;
+    max-width: calc(100vw - 10px);
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;}
+.head { /* ==== Barbara ==== */
+    color: black;}
+#name {
+    background-color: hsla(0, 0%, 100%, .5);
+    text-transform:uppercase;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px}
+.about {
+    padding: 25px;
+    font-size:16px;
+    font-family: 'Anonymous Pro', monospace;} /* ==== szöveg==== */
+
+.profile-image {}
+img {
+    width: 120px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 1px;	
+	background-color:;
+	transition: all 0.5s ease-in-out;
+    filter: grayscale(50%)}
+img:hover {
+    transform: scale(1.1);
+	filter: grayscale(10%);} 
+.profile-card {
+ul {
+    list-style-type: none;}
+li {
+    display: inline;}}
+.content{
+    padding: 5% 10%;
+    border-top: 1px solid hsla(0, 0%, 30%, .8);
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;}
