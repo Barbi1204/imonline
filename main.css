@@ -53,8 +53,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(assets/h%C3%A1tt%C3%A9r.jpg);
+    background: url(assets/ko.jpg);
 	background-size: cover;}
+#logo {
+    margin-top: -500px;
+    margin-right: 80px;
+    margin-left: 80px;
+    width: 315px;
+    height: 80px;
+    background-size: cover;
+    padding: 0px;}
 .profile-card {
     background-color: hsla(0, 100%, 50%, 0,0);
     width: 480px;
@@ -62,37 +70,37 @@ body {
     max-width: calc(100vw - 10px);
     box-shadow: hsla(0, 0%, 0%, .6) 10px 10px 80px;}
 .head { /* ==== Barbara ==== */
-    color: black;}
+    color: rgba( 0, 0, 0, 1 );}
 #name {
     background-color: hsla(0, 0%, 100%, .5);
     text-transform:uppercase;
-    font-size: 26px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    padding: 20px}
+    padding: 20px;
+text-align: ;
+    color: rgba( 143, 188, 143, 1 )
+}
 .about {
     padding: 25px;
     font-size:16px;
     font-family: 'Anonymous Pro', monospace;} /* ==== szöveg==== */
-img {
+#profile {
     width: 120px;
-    height: 284.4px;
+    height: 294.4px;
     border-radius: 0.5px;
     padding: 1px;	
 	background-color:;
 	transition: all 0.5s ease-in-out;
     filter: grayscale(50%);
-    margin-top: -6.5px;
-margin-left: -1px;}
+    margin-top: -3.5px;
+    margin-left: -1px;}
 img:hover {
     transform: scale(1.1);
-	filter: grayscale(25%);} 
+	filter: grayscale(15%);} 
 ul {
-  list-style-type: none;
-}
-
+    list-style-type: none;}
 li {
-  display: inline;
-    }
+   display: inline;}
 .content{
     padding: 3% 10%;
     border-top: 0.5px solid hsla(0, 0%, 30%, .8);
