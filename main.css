@@ -74,7 +74,7 @@ body {
 #name {
     background-color: hsla(0, 0%, 100%, .5);
     text-transform:uppercase;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
     padding: 20px;
 text-align: ;
@@ -86,15 +86,15 @@ text-align: ;
     font-family: 'Anonymous Pro', monospace;} /* ==== szöveg==== */
 #profile {
     width: 120px;
-    height: 294.4px;
+    height: 290.4px;
     border-radius: 0.5px;
     padding: 1px;	
 	background-color:;
 	transition: all 0.5s ease-in-out;
     filter: grayscale(50%);
-    margin-top: -3.5px;
+    margin-top: 1px;
     margin-left: -1px;}
-img:hover {
+#profile:hover {
     transform: scale(1.1);
 	filter: grayscale(15%);} 
 ul {
